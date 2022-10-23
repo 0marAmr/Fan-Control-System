@@ -3,7 +3,7 @@ Implemented via **AVR atmega32** MCU with **1 MHz** internal clock frequency.
 >### Project Description:
 
 * **The fan is automatically turned OFF or ON with variable speed according to the temperature.**
-* **Based on the temperature read from the  LM35 sensor, the MCU sets the fan speed as follows:**
+* **Based on the temperature read from the  LM35 sensor, the MCU sets the fan speed as follows:**  <br>
 &emsp; <i>i. If the temperature is less than 30C, the fan is turned off. <br>
 &emsp;    ii. If the temperature is greater than or equal 30C, the fan is turned on with 25% of its maximum speed.<br>
 &emsp;    iii. If the temperature is greater than or equal 60C, the fan is turned on with 50% of its maximum speed. <br>
